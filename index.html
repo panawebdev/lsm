@@ -182,13 +182,13 @@
             box-shadow:0 0 14px rgba(139,69,179,0.6);
         }
         .slideInner{
-            width:700%;
+            width:1200%;
             height:100%;
             display:flex;
             transition: transform 0.8s ease-in-out;
         }
         .slidePhoto{
-            width:calc(100% /7);
+            width:calc(100% /12);
             height:100%;
             object-fit:cover;
         }
@@ -269,6 +269,11 @@
                         <img src="photo5.jpg" class="slidePhoto" alt="Memory 5">
                         <img src="photo6.jpg" class="slidePhoto" alt="Memory 6">
                         <img src="photo7.jpg" class="slidePhoto" alt="Memory 7">
+                        <img src="photo8.jpg" class="slidePhoto" alt="Memory 8">
+                        <img src="photo9.jpg" class="slidePhoto" alt="Memory 9">
+                        <img src="photo10.jpg" class="slidePhoto" alt="Memory 10">
+                        <img src="photo11.jpg" class="slidePhoto" alt="Memory 11">
+                        <img src="photo12.jpg" class="slidePhoto" alt="Memory 12">
                     </div>
                 </div>
                 <p id="slideText"></p>
@@ -313,7 +318,7 @@ setTimeout(()=>{
 },6000);
 
 // Slow auto swipe slideshow
-const totalSlides = 7;
+const totalSlides = 12;
 let slideIndex = 0;
 let slideTimer;
 
